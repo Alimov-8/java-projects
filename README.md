@@ -24,14 +24,14 @@ Inha University Sophomore year (Application Progrmming in Java) 2020 Fall Semest
     change volume and  switch on or off mobile
     
     # 3 DoM Application ☀️☔️❄️
-    1.	Department of Meteorology (DoM) has decided to develop application (DoM_Application) to 
-    re00000cord year wise climatic information of cities in country.
+    - Department of Meteorology (DoM) has decided to develop application (DoM_Application) to 
+    record year wise climatic information of cities in country.
     Functional requirements of DoM_Application are as follows:
     
     Menu driven Java program to implement DoM_Application using following class diagram.
     Menu must have following options.
-    1.	Maintain city wise hourly (00:00  to 23:00 ) temperature information.
-    2.	Maintain city wise yearly (from January to December) rainfall information.
-    3.	Display yearly climate data for city.
+     1. Maintain city wise hourly (00:00  to 23:00 ) temperature information.
+     2. Maintain city wise yearly (from January to December) rainfall information.
+     3. Display yearly climate data for city.
 
 
