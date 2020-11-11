@@ -33,5 +33,23 @@ Inha University Sophomore year (Application Progrmming in Java) 2020 Fall Semest
      1. Maintain city wise hourly (00:00  to 23:00 ) temperature information.
      2. Maintain city wise yearly (from January to December) rainfall information.
      3. Display yearly climate data for city.
+     
+    # 4 Product Demo Application 📺📲
+    Topics covered: Abstract Class, Interface & Polymorphism
+    
+    - Write Java Program to implement following class diagram. 
+    In main method of ProductDemo class you have demonstrate polymorphism. 
+    
+    Special Instructions-
+     1.	Program should be well commented.
+     2.	Program should be easy to use.
+     3.	Data Validation should be done. 
+     e.g. channel range (1-100), volume range (0-10), product should be 
+     on when you change volume or channel or sim change
+     4.	Add necessary constructors, attributes and member functions if required.
+     
+     UML Diagram: 
+     
+
 
 
