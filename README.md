@@ -48,7 +48,8 @@ Inha University Sophomore year (Application Progrmming in Java) 2020 Fall Semest
      on when you change volume or channel or sim change
      4.	Add necessary constructors, attributes and member functions if required.
      
-     UML Diagram: 
+     UML Diagram:
+     <img src="Pictures/UML_Dia_" alt="Diagram">
      
 
 
