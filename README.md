@@ -49,7 +49,8 @@ Inha University Sophomore year (Application Progrmming in Java) 2020 Fall Semest
      4.	Add necessary constructors, attributes and member functions if required.
      
      UML Diagram:
-     <img src="Pictures/UML_Dia_" alt="Diagram">
+     
+   <img src="Pictures/UML_ProductDemo.jpg" alt="Diagram" width="800" height="450">
      
 
 
