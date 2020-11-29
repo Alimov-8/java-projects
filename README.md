@@ -51,7 +51,16 @@ Inha University Sophomore year (Application Progrmming in Java) 2020 Fall Semest
      UML Diagram:
      
    <img src="Pictures/UML_ProductDemo.jpg" alt="Diagram" width="800" height="450">
+   
+    # 5 Printer GUI JAVA Swing Apllication 🖨
+    - GUI Design, No functionality 
+    
+   <img src="Pictures/PrinterU1910060_Picture.jpg" alt="Printer" width="800" height="450">
      
+    # 6 Calculator GUI JAVA Swing Apllication 📱
+    - GUI Design with functionality 
+    
+   <img src="Pictures/CalculatorU1910060_Picture.jpg" alt="Printer" width="800" height="450">
 
 
 
