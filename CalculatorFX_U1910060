@@ -1,0 +1,75 @@
+/*
+Student:
+U1910060
+Alimov Abdullokh
+MSC2070-002
+*/
+
+import javafx.application.Application;  
+import javafx.scene.Scene;  
+import javafx.scene.control.Button;  
+import javafx.scene.control.Label;  
+import javafx.scene.control.TextField;  
+import javafx.scene.layout.GridPane;  
+import javafx.stage.Stage;  
+import javafx.scene.layout.HBox; 
+import javafx.event.EventHandler; 
+import java.awt.*;
+import java.awt.event.*; 
+  
+public class CalculatorFX_U1910060 extends Application {  
+	String value;
+    String math;
+    double num1, num2, result;
+  
+    @Override  
+    public void start(Stage primaryStage) throws Exception {  
+        // Text Field
+		TextField tfSpace=new TextField();  
+        // Button Field
+        Button bOne = new Button ("  1  ");
+        Button bTwo = new Button ("  2  ");
+        Button bThree = new Button ("  3  ");
+        Button bFour = new Button ("  4  ");
+        Button bFive = new Button ("  5  ");
+        Button bSix = new Button ("  6  ");
+        Button bSeven = new Button ("  7  ");
+        Button bEight = new Button ("  8  ");
+        Button bNine = new Button ("  9  ");
+        Button bZero = new Button ("  0  ");
+		Button bAdd = new Button ("  +  ");
+        Button bSub = new Button ("  -  ");
+        Button bMul = new Button ("  *  ");
+        Button bDiv = new Button ("  /  ");
+		Button bEqual = new Button ("  =  ");
+        Button bDot = new Button ("   .   ");
+		
+
+
+		
+        GridPane root=new GridPane();  
+		HBox root2_1 = new HBox();
+		HBox root2_2 = new HBox();
+		HBox root2_3 = new HBox();
+		HBox root2_4 = new HBox();
+        Scene scene = new Scene(root,150,135);  
+		
+        root.addRow(0, tfSpace);
+        root.addRow(1, root2_4);
+		root.addRow(2, root2_3);
+		root.addRow(3, root2_2);
+		root.addRow(4, root2_1);
+		root2_1.getChildren().addAll(bZero,bDot,bEqual,bAdd);   
+        root2_2.getChildren().addAll(bOne,bTwo,bThree,bSub);   
+		root2_3.getChildren().addAll(bFour,bFive,bSix,bMul);   
+		root2_4.getChildren().addAll(bSeven,bEight,bNine,bDiv);   
+		
+        primaryStage.setScene(scene);  
+		primaryStage.setTitle("CalculatorFX U1910060");  
+        primaryStage.show();  
+    }  
+    public static void main(String[] args) {  
+        launch(args);  
+    }  
+      
+}
