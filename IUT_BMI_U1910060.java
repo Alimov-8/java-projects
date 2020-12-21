@@ -87,6 +87,33 @@ public class IUT_BMI_U1910060  {
 							conn.close();
 						} 
 							break;
+						case 3: //  Show Records
+						{	
+							// Step 3: Execute a SQL SELECT query, the query result
+							//  is returned in a 'ResultSet' object.
+							String strSelect = "select * from Employee_BMI";
+							System.out.println("The SQL query is: " + strSelect); // Echo For debugging
+							System.out.println();
+					 
+							ResultSet rset = stmt.executeQuery(strSelect);
+					 
+							// Step 4: Process the ResultSet by scrolling the cursor forward via next().
+							//  For each row, retrieve the contents of the cells with getXxx(columnName).
+							System.out.println("The records selected are:");
+							int rowCount = 0;
+							while(rset.next()) {   // Move the cursor to the next row, return false if no more row
+								employeeID = rset.getInt("employeeID"); 
+								employeeHeight= rset.getInt("employeeHeight"); 
+								employeeWeight= rset.getInt("employeeWeight");
+								employeeName = rset.getString("employeeName");
+								
+								System.out.println(employeeID+ " " +employeeName+ " " +employeeHeight+ " " +employeeWeight );
+								++rowCount;
+							}
+							 System.out.println("Total number of records = " + rowCount);
+							conn.close();
+						} 
+							break;
 						case 0: {
 							finishProgram=false;
 						}
