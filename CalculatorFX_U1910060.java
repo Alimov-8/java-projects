@@ -1,6 +1,6 @@
 /*
 Student:
-U1910060
+ID: U1910060
 Alimov Abdullokh
 MSC2070-002
 */
