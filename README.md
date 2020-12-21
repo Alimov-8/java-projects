@@ -61,6 +61,19 @@ Inha University Sophomore year (Application Progrmming in Java) 2020 Fall Semest
     - GUI Design with functionality 
     
    <img src="Pictures/CalculatorU1910060_Picture.jpg" alt="Printer" width="800" height="450">
+   
+    # 7 IUT BMI (MySQL database connection) 📅
+    Create database IUT_BMI (using any database MySQL/Ms-Access/…). Create table given below.
+    Database Name	IUT_BMI
+    Table Name	Employee_BMI
+    Columns	employeeID	
+        employeeName	
+        employeeHeight	
+        employeeWeight	
+        
+    Write menu driven java program to Insert record / Delete record/ Display Record / Update.
+
+    
 
 
 
