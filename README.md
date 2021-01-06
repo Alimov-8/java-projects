@@ -74,6 +74,11 @@ Inha University Sophomore year (Application Progrmming in Java) 2020 Fall Semest
     Write menu driven java program to Insert record / Delete record/ Display Record / Update.
 
     
+    #8 Threads  👨‍👨‍👧‍👦
+    1.	Write java program to implement two threads such that one thread prints prime numbers 
+    from 1 to 10 and other thread prints non-prime numbers from 1 to 10. 
+    Note :- Each thread has a delay of 500 millsecond after printing one number
 
+   <img src="Pictures/U1910060_Picture.jpg" alt="Printer" width="800" height="450">
 
 
