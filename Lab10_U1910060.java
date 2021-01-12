@@ -3,6 +3,8 @@ ID: U1910060
 Name: Abdullokh Alimov
 MSC2070-002
 */
+
+// It can be on final exam also 
  
 class threadPrime extends Thread
 {
